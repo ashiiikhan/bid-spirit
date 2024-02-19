@@ -1,0 +1,167 @@
+footer .content{
+    max-width: 100%;
+   position: absolute; 
+   left: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  rgb(122, 66, 25);
+    margin-top: 300px;
+    height: auto;
+    box-shadow: 25px 25px 25px 25px rgba(0,0,0,0.15), 10px 10px 10px 10px rgba(0,0,0,0.22); 
+  }
+  footer .content p,a{
+    color: white;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 16px;
+  }
+  footer .content p{
+    text-align: justify;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+    margin-top: 30px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  .media-icons{
+    margin-top: 20px;
+  }
+  
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid chocolate;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+    color: white;
+
+  }
+  .content .media-icons a:hover{
+    border-color: black;
+    color: chocolate;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: white;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color:chocolate;
+  }
+  .topic{
+    margin-top: 10px;
+  }
+  .middle a{
+    color: white;
+  }
+  .topic a{
+    color: white;
+
+ 
+  }
+  .phone a{
+  color: white;
+  }
+  .phone a:hover{
+    color: chocolate;
+    }
+    .email a{
+      color: white;
+      }
+      .email a:hover{
+        color: chocolate;
+        }
+        .visitor{
+        margin-top: 10px;
+        }
+        .footer hr{
+          color: rgb(255, 239, 239);
+        }
+        footer .install .row img{
+      
+          border-radius: 6px;
+          
+      }
+      footer .install  img{
+          margin: 10px 0 15px 0;
+          width: 100px;
+          height: 80px;
+          margin-top: 30px;
+          padding: 0;
+      }
+      footer.follow i:hover,
+      footer a:hover{
+          color: #021615;
+      }
+      footer .copyright{
+          width: 100%;
+          text-align: center;
+          margin-top: 250px;
+     margin-left: 20px;
+      
+      
+      }
+      .footer  a:hover{
+        color: chocolate;
+        padding-left: 8px;
+      }
+  
+      /*responsive*/
+      @media (max-width:1100px) {
+        footer .content .middle{
+          padding-left: 50px;
+        }
+      }
+      @media (max-width:950px){
+        footer .content .box{
+          width: 50%;
+        }
+        .content .right{
+          margin-top: 40px;
+        }
+      }
+      @media (max-width:560px){
+        footer{
+          position: relative;
+        }
+        footer .content .box{
+          width: 100%;
+          margin-top: 30px;
+        }
+        footer .content .middle{
+          padding-left: 0;
+        }
+      }
+      .footer hr{
+        color: rgb(255, 239, 239);
+        width: 80px;
+      }

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  <!-- navbar start -->
+
+  <nav class="navtop fixed-top navbar-expand-lg navbar-dark">
+    
+    <div class="container-fluid d-flex">
+      <a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter7.optistats.ovh/private/freecounterstat.php?c=pqb9h3uyrkmw4wxjumpjexa3d9xj68jn" border="0" title="web counter" alt="web counter" class="visitor"></a>
+        <div class="wrapper">
+            <div class="display">
+               <div id="time"></div>
+            </div>
+            <span class="span"></span>
+            <span class="span"></span>
+         </div>
+         <div class="containerrr">
+          <div class="clock">
+              <div id="Date">Monday 26 September 2023</div>
+<!-- 
+              <ul>
+              <li id="hours">05</li>
+                  <li id="point">:</li>
+                  <li id="min">20</li>
+                  <li id="point">:</li>
+                  <li id="sec">30</li>
+              </ul>
+          </div> -->
+      </div>
+         
+       
+  </nav>
+ 
+  <!-- navbar end -->
+<!-- navbar start -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo4.png " alt="logo" class="navlogo" height="55px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+         Auctions
+            </a>
+            <ul class="dropdown-menu bg-drop">
+              <li><a class="dropdown-item" href="assets/html/art.html">Arts</a></li>
+              <li><a class="dropdown-item" href="assets/html/furniture.html">Furniture</a></li>
+              <li><a class="dropdown-item" href="assets/html/antiques.html">Antiques</a></li>
+              <li><a class="dropdown-item" href="assets/html/collectibles.html">Collectibles</a></li>
+              <li><a class="dropdown-item" href="assets/html/jewerlly.html">Jewellery</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/foam.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/foam.html">FAQS</a>
+          </li>
+        </ul>
+       
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-but">
+            <!-- <a class="btn btn-outline-light"   href="">REGISTERED</a>
+            <a class="btn btn-outline-light" href="">LOGIN</a> -->
+            <a class="btn btn-outline-light" href="index1.html">LogOut</a>
+          </li>
+
+      </div>
+    </div>
+  
+  </nav>
+  
+  <!-- navbar end -->
+
+     <!-- All Art Gallery -->
+     <div class="Bar">
+      <input type="text" placeholder="Find lots in all catalogs" class="search" id="myinput">
+ 
+    </div>
+    <div class="item ">
+      <p>Items for All art
+      </p>
+    </div>
+    <div class="icon">
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+  </div>
+     <!-- cards -->
+     
+    <section class="container tab-content " id="mydiv">
+      <div class="row  tab-content" id="mydiv" >
+        <div class="col tab-content" id="mydiv"  data-bs-toggle="modal" data-bs-target="#popup1" >
+      <div class="card active tab-pane fade in show" id="mydiv">
+          <div >
+            <img src="images/arts/art3.jpg">
+          </div>
+          <div class="text">
+          <h5 class="txt">Safrai gallery's shop</h5>
+          </div>
+           <p>A. Binder The Market
+            67x82cm 26.5x32 Inches
+            Serigraph
+            1998</p>
+           <h5 class="price">Price:</h5>
+           <div class="add d-flex">
+            <h5>$300</h5>
+        <a href="#"  data-bs-toggle="modal" data-bs-target="#popup1">VIEW</a></div>
+        </div>
+      </div>
+      <!-- modal -->
+      <div class="modal  fade" tabindex="-1"  id="popup1"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">King David 19, Jerusalem</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/arts/art3.jpg" class="modalimage">
+              <p>
+                Lot number: 2750-124460</p>
+                <p>A. Binder
+                  The Market The Market
+                  67x82cm 26.5x32 Inches
+                  Serigraph
+                  1998
+                  Edition: 400
+                  </p>
+                  <div class="modalprice">
+                    <h5 class="price">Price</h5>
+                 <h5>$300</h5>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" >BID</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col "  data-bs-toggle="modal" data-bs-target="#popup2" >
+      <div class="card">
+          <div>
+            <img src="images/arts/art2.jpg">
+          </div>
+          <div class="text">
+            <h5 class="txt">Safrai gallery's shop</h5>
+            </div>
+          <p>Shemuel Katz s-307 Fisheman of the Kinneret
+            39x55cm 15.5 x21.5 Inc
+            Serigraph
+            1995</p>
+           <h5 class="price">Price:</h5>
+           <div class="add d-flex">
+              <h5>$200</h5>
+              <a href="#"  data-bs-toggle="modal" data-bs-target="#popup2">VIEW</a></div>
+          </div>
+        </div>
+         <!-- modal -->
+      <div class="modal  fade" tabindex="-1"  id="popup2"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">King David 19, Jerusalem</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="images/arts/art2.jpg" class="modalimage">
+              <p>
+              
+Lot number: 2750-124453</p>
+                <p>Shemuel Katz
+                  s-307 Fisheman of the Kinnerets-307 Fisheman of the Kinneret
+                  39x55cm 15.5 x21.5 Inc
+                  Serigraph
+                  1995
+                  Edition: 400
+                  </p>
+                  <div class="modalprice">
+                    <h5 class="price">Price</h5>
+                 <h5> $200</h5>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" >BID</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col" data-bs-toggle="modal" data-bs-target="#popup3" >
+          <div class="card">
+              <div >
+                <img class="image" src="images/arts/art22.jpg">
+              </div>
+              <div class="text">
+              <h5 class="txt">
+                Private Collection's shop</h5>
+              </div>
+               <p>David Harel שמן על בד בתוך קוביית פרספקס חתום מידה 26X26X16 ס"מ</p>
+               <h5 class="price">Price:</h5>
+               <div class="add d-flex">
+                <h5>$350</h5>
+                <a href="#"  data-bs-toggle="modal" data-bs-target="#popup3">VIEW</a></div>
+              </div>
+            </div>
+             <!-- modal -->
+          <div class="modal  fade" tabindex="-1"  id="popup3"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Ha-Kalanit St 17, Kfar Yona</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/arts/art22.jpg" class="modalimage">
+                  <p>
+                  
+
+                    Lot number: 7071-128116</p>
+                    <p>David Harel שמן על בד בתוך קוביית פרספקס חתום מידה 26X26X16 ס"מ
+                      </p>
+                      <div class="modalprice">
+                        <h5 class="price">Price</h5>
+                     <h5>$350</h5>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" >BID</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col" data-bs-toggle="modal" data-bs-target="#popup4">
+            <div class="card">
+                <div >
+                  <img class="image" src="images/arts/aRT23.jpg">
+                </div>
+                <div class="text">
+                <h5 class="txt"> Private Collection's shop</h5>
+                </div>
+                 <p>David Harel שמן ומיקס מדיה על בד חתום מידות 40X20 ס"מ</p>
+                 <h5 class="price">Price:</h5>
+                 <div class="add d-flex">
+                  <h5>$150</h5>
+                  <a href="#"  data-bs-toggle="modal" data-bs-target="#popup4">VIEW</a></div>
+                </div>
+              </div>
+               <!-- modal -->
+            <div class="modal  fade" tabindex="-1"  id="popup4"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+              <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Ha-Kalanit St 17, Kfar Yona</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/arts/aRT23.jpg" class="modalimage">
+                    <p>
+                    
+  
+                   
+Lot number: 7071-128114</p>
+                      <p>David Harel שמן ומיקס מדיה על בד חתום מידות 40X20 ס"מ
+                        </p>
+                        <div class="modalprice">
+                          <h5 class="price">Price</h5>
+                       <h5> $150</h5>
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" >BID</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"  data-bs-toggle="modal" data-bs-target="#popup5">
+              <div class="card">
+                  <div >
+                    <img src="images/arts/ar1.jpg">
+                  </div>
+                  <div class="text">
+                  <h5 class="txt">Auction 24 Israeli international</h5>
+                  </div>
+                   <p>
+                    SQUARE (Dec 30, 2023)
+                    LOT 133: Rogrerro - נשים. שמן על בד. חתום. לא מתוח.</p>
+                   <h5 class="price">Price:</h5>
+                   <div class="add d-flex">
+                    <h5>$100</h5>
+                    <a href="#"  data-bs-toggle="modal" data-bs-target="#popup5">VIEW</a></div>
+                  </div>
+                </div>
+                 <!-- modal -->
+              <div class="modal  fade" tabindex="-1"  id="popup5"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">By SQUARE</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/arts/ar1.jpg" class="modalimage">
+                      <p>
+                      
+    
+                     
+
+                        LOT 133:</p>
+                        <p>Rogrerro
+                          נשים.נשים.
+                          שמן על בד.
+                          
+                          חתום.
+                          
+                          לא מתוח.
+                          
+                          Measurement: 	102 x 95 cm
+                          
+                          </p>
+                          <div class="modalprice">
+                            <h5 class="price">Price</h5>
+                         <h5>  $100</h5>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" >BID</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col"  data-bs-toggle="modal" data-bs-target="#popup6">
+                <div class="card">
+                    <div >
+                      <img src="images/arts/ar3.jpg">
+                    </div>
+                    <div class="text">
+                    <h5 class="txt">Auction 24 Israeli international</h5>
+                    </div>
+                     <p>
+                      SQUARE (Dec 30, 2023)
+                      LOT 185: מישל - ירושלים. הדפס משי מוזהב. חתומה. ממסופרת</p>
+                     <h5 class="price">Price:</h5>
+                     <div class="add d-flex">
+                      <h5>$10</h5>
+                      <a href="#"  data-bs-toggle="modal" data-bs-target="#popup6">VIEW</a></div>
+                    </div>
+                  </div>
+                   <!-- modal -->
+                <div class="modal  fade" tabindex="-1"  id="popup6"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">By SQUARE</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/arts/ar3.jpg" class="modalimage">
+                        <p>
+                        
+      
+                       
+  
+                          
+LOT 185</p>
+                          <P>>ירושלים
+                            ירושלים.
+                            הדפס משי מוזהב.
+                            
+                            חתומה.
+                            
+                            ממסופרת.
+                            
+                            Measurement: 	50 x 37 cm
+                                                      </p>
+                            <div class="modalprice">
+                              <h5 class="price">Price</h5>
+                           <h5>$10</h5>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" >BID</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" data-bs-toggle="modal" data-bs-target="#popup7">
+                  <div class="card">
+                      <div >
+                        <img src="images/arts/ar4.jpg">
+                      </div>
+                      <div class="text">
+                      <h5 class="txt">Auction 24 Israeli international</h5>
+                      </div>
+                       <p>LOT 134: Rogrerro - דמות אישה. שמן על בד. חתום. לא מתוח.</p>
+                       <h5 class="price">Price:</h5>
+                       <div class="add d-flex">
+                        <h5>$100</h5>
+                    <a href="#"  data-bs-toggle="modal" data-bs-target="#popup7">VIEW</a></div>
+                    </div>
+                  </div>
+                   <!-- modal -->
+                <div class="modal  fade" tabindex="-1"  id="popup7"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">By SQUARE</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/arts/ar4.jpg" class="modalimage">
+                        <p>              
+
+                          LOT 134:</p>
+                          <P>Rogrerro
+                            דמות אישה.דמות אישה.
+                            שמן על בד.
+                            חתום.
+                            לא מתוח.
+                            Measurement: 	95 x 100 cm
+                            
+                                                      </p>
+                            <div class="modalprice">
+                              <h5 class="price">Price</h5>
+                           <h5>$100</h5>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" >BID</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col" data-bs-toggle="modal" data-bs-target="#popup8">
+                <div class="card">
+                    <div >
+                      <img class="image" src="images/arts/ar5.jpg">
+                    </div>
+                    <div class="text">
+                    <h5 class="txt">
+                      Pasparto's shop</h5>
+                    </div>
+                     <p class="pra">Bonit Yosef - Horses in space . Bonit yosef - Horses in space oil ...</p>
+                     <h5 class="price">Price:</h5>
+                     <div class="add d-flex">
+                      <h5>$250</h5>
+                      <a href="#"  data-bs-toggle="modal" data-bs-target="#popup8">VIEW</a></div>
+                    </div>
+                  </div>
+                   <!-- modal -->
+                <div class="modal  fade" tabindex="-1"  id="popup8"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Hashaked 12 Risphon
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/arts/ar5.jpg" class="modalimage">
+                        <p>              
+
+                          
+Lot number: 6215-17670</p>
+                          <P>Bonit Yosef
+                            Horses in space Horses in space
+                            Bonit yosef - Horses in space
+                            oil on canvas
+                            90x70 cm
+                            
+                                                      </p>
+                            <div class="modalprice">
+                              <h5 class="price">Price</h5>
+                           <h5>$100</h5>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" >BID</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" data-bs-toggle="modal" data-bs-target="#popup9">
+                  <div class="card">
+                      <div >
+                        <img src="images/arts/art12.jpg">
+                      </div>
+                      <div class="text">
+                      <h5 class="txt">
+                      Pasparto's shop</h5>
+                      </div>
+                       <p>Evos Primost - “Hermitage autumn”. Evos Primost- Hermitage autumn ...</p>
+                       <h5 class="price">Price:</h5>
+                       <div class="add d-flex">
+                        <h5>$617</h5>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#popup9">VIEW</a></div>
+                      </div>
+                    </div>
+                     <!-- modal -->
+                  <div class="modal  fade" tabindex="-1"  id="popup9"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Hashaked 12 Risphon
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="images/arts/art12.jpg" class="modalimage">
+                          <p>              
+  
+                            
+  
+Lot number: 6215-17615</p>
+                            <P>Evos Primost
+                              “Hermitage autumn”
+Evos Primost- Hermitage autumn
+oil on canvas
+76X59 cm
+                              
+                                                        </p>
+                              <div class="modalprice">
+                                <h5 class="price">Price</h5>
+                             <h5>  $617 </h5>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" >BID</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                          
+                              
+      </div>
+              <!-- footer -->
+              <footer>
+
+                <div class="content footer">
+                  <div class="left box footer">
+                    <div class="upper">
+                      
+                      <div class="topic"><img src="images/logo4.png" class="logo"></div>
+                      <p>An auction is usually a process of buying and selling goods or services by offering them up for bids, taking bids, and then selling the item to the highest bidder or buying the item from the lowest bidder. Some exceptions to this definition exist and are described in the section about different types.</p>
+                    </div>
+                    <div class="lower">
+                      <div class="topic"><a href="#">Contact Us</a></div>
+                      <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+9344 555 6666</a>
+                      </div>
+                      <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>BidSpirit@gmail.com</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="middle box">
+                    <div><h3 class="topic">SiteMap</h3></div>
+                    <hr>
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">Feedback</a></div>
+                    <div><a href="#">About Us</a></div>
+                    <div><a href="#">Gallery</a></div>
+                    <div><a href="#">FAQS</a></div>
+                    <div class="topic">Auctions</div>
+                    <hr/>
+                    <div><a href="#">Arts</a></div>
+                    <div><a href="#">Furniture</a></div>
+                    <div><a href="#">Antiques</a></div>
+                    <div><a href="#">Jewellery</a></div>
+                    <div><a href="#">Collectibles</a></div>
+                  
+                  </div>
+                
+                  <div class="right box">
+                
+                      <div class="media-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                      <div class="col install">
+                        <div class="row">
+                          <img src="images/visa-removebg-preview.png" alt="">
+                           
+                           
+                            <img src="images/footer1-removebg-preview.png" alt="">
+                            <img src="images/footer2.webp" alt="">
+                        </div>
+                        <p>Secured Payment Gateways</p>
+                      
+                    </div>
+                    <div class="copyright">
+                      <p>Copyright © 2024, BIDSPIRIT</p>
+                  </div>
+                  </div>
+                </div>
+               
+               </footer>
+           
+
+<script src="app.js"></script>
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+<script>
+  setInterval(()=>{
+    const time = document.querySelector(".display #time");
+    let date = new Date();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+    let day_night = "AM";
+    if(hours > 12){
+      day_night = "PM";
+      hours = hours - 12;
+    }
+    if(seconds < 10){
+      seconds = "0" + seconds;
+    }
+    if(minutes < 10){
+      minutes = "0" + minutes;
+    }
+    if(hours < 10){
+      hours = "0" + hours;
+    }
+    time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+  });
+
+
+
+
+ 
+</script>
+<script src="jquery-3.7.1.min.js"></script>
+<!-- // filter -->
+<script>
+  $(document).ready(function(){
+    $("#myinput").on("keyup",function(){
+      var value = $(this).val().toLowerCase();
+      $("#mydiv .card").filter(function(){
+        $(this).toggle($(this).text().toLowerCase().indexOf(value)>-1);
+      });
+    });
+  });
+</script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+}
+body{
+  background-color: rgb(109, 66, 36);
+
+}
+.box{
+    width: 350px;
+    padding: 40px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff20;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: aliceblue;
+}
+.box h4{
+    color: chocolate;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+    top: 0;
+}
+label{
+  margin-top: 20px;
+
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"],
+.box input[type = "contact"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid  rgb(122, 66, 25);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px ;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus,
+.box input[type = "contact"]:focus{
+    width: 280px;
+    border-color: chocolate;
+   
+}
+.boxx input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  rgb(122, 66, 25);
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px ;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.boxxx{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+ 
+    text-align: center;
+    border: 2px solid  rgb(122, 66, 25);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px ;
+    transition: 0.25s;
+}
+.boxxx:focus{
+    width: 280px;
+    border-color: chocolate;
+}
+#country{
+ margin-left: 0px;
+}
+select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    /* width: 100%; */
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: white;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+/* select:focus{
+    width: 280px;
+    border-color: #2ecc71; 
+} */
+.boxxxx{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+ 
+    text-align: center;
+    border: 2px solid  rgb(122, 66, 25);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px ;
+    transition: 0.25s;
+}
+.boxx input[type = "submit"]{
+
+color: white;
+background-color: chocolate;
+
+ 
+   
+}
+.boxx input[type = "submit"]:hover{
+
+    color: white;
+    background-color: black;
+    
+     
+       
+    }

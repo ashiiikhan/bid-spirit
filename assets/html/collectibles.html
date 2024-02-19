@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  <!-- navbar start -->
+
+  <nav class="navtop fixed-top navbar-expand-lg navbar-dark">
+    
+    <div class="container-fluid d-flex">
+      <a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter7.optistats.ovh/private/freecounterstat.php?c=pqb9h3uyrkmw4wxjumpjexa3d9xj68jn" border="0" title="web counter" alt="web counter" class="visitor"></a>
+        <div class="wrapper">
+            <div class="display">
+               <div id="time"></div>
+            </div>
+            <span class="span"></span>
+            <span class="span"></span>
+         </div>
+         <div class="containerrr">
+          <div class="clock">
+              <div id="Date">Monday 26 September 2023</div>
+<!-- 
+              <ul>
+              <li id="hours">05</li>
+                  <li id="point">:</li>
+                  <li id="min">20</li>
+                  <li id="point">:</li>
+                  <li id="sec">30</li>
+              </ul>
+          </div> -->
+      </div>
+         
+       
+  </nav>
+ 
+  <!-- navbar end -->
+<!-- navbar start -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo4.png " alt="logo" class="navlogo" height="55px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+         Auctions
+            </a>
+            <ul class="dropdown-menu bg-drop">
+              <li><a class="dropdown-item" href="art.html">Arts</a></li>
+              <li><a class="dropdown-item" href="furniture.html">Furniture</a></li>
+              <li><a class="dropdown-item" href="antiques.html">Antiques</a></li>
+              <li><a class="dropdown-item" href="collectibles.html">Collectibles</a></li>
+              <li><a class="dropdown-item" href="jewerlly.html">Jewellery</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="assets/foam.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="faqs.html">FAQs</a>
+          </li>
+        </ul>
+       
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-but">
+            <!-- <a class="btn btn-outline-light"   href="">REGISTERED</a>
+            <a class="btn btn-outline-light" href="">LOGIN</a> -->
+            <a class="btn btn-outline-light" href="index1.html">LogOut</a>
+          </li>
+
+      </div>
+    </div>
+  
+  </nav>
+  
+  <!-- navbar end -->
+
+     <!-- All Art Gallery -->
+     <div class="Bar">
+      <input type="text" placeholder="Find lots in all catalogs" class="search"  id="myinput">
+ 
+    </div>
+    <div class="item ">
+      <p>Items for All Collectibles
+      </p>
+    </div>
+    <div class="icon">
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+  </div>
+     <!-- cards -->
+     
+    <section class="container" id="mydiv">
+      <div class="row" id="mydiv">
+        <div class="col" id="mydiv" data-bs-toggle="modal" data-bs-target="#popup1">
+      <div class="card" id="mydiv">
+          <div >
+            <img class="collectimgs" src="images/collectibels/11.png">
+          </div>
+          <div class="text">
+          <h5 class="txt">By antiochus</h5>
+          </div>
+           <p>
+            LOT 348: Tilso, יפן - The figure of the פורצלן חתומה במדבקת פיקארה,...</p>
+           <h5 class="price">Price:</h5>
+           <div class="add d-flex">
+            <h5>$10</h5>
+            <a href="#"  data-bs-toggle="modal" data-bs-target="#popup1">VIEW</a></div>
+          </div>
+        </div>
+        <!-- modal -->
+        <div class="modal  fade" tabindex="-1"  id="popup1"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">By antiochus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="images/collectibels/11.png" class="modalimage">
+                <p>
+              
+LOT 348:</p>
+                  <p>Tilso, יפן - The figure of the פורצלן חתומה במדבקת פיקארה, such as a hunter with his robe (his body is scarred and his mouth is scarred) and his mouth is painted (also his face is scarred and his mouth is scarred), and his toe is scarred and scarred. Height כ-18 ס"מ.
+                    </p>
+                    <div class="modalprice">
+                      <h5 class="price">Price</h5>
+                   <h5>$10</h5>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" >BID</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col" data-bs-toggle="modal" data-bs-target="#popup2">
+      <div class="card">
+          <div>
+            <img  src="images/collectibels/14.jpg">
+          </div>
+          <div class="text">
+            <h5 class="txt">
+                רומנו בית ... (Dec 24, 2023)</h5>
+            </div>
+          <p>
+           
+LOT 396:A figure made of glass, modeled on a hill-... ...</p>
+           <h5 class="price">Price:</h5>
+           <div class="add d-flex">
+              <h5>$10</h5>
+              <a href="#"  data-bs-toggle="modal" data-bs-target="#popup2">VIEW</a></div>
+            </div>
+          </div>
+          <!-- modal -->
+          <div class="modal  fade" tabindex="-1"  id="popup2"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">By antiochus</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/collectibels/14.jpg" class="modalimage">
+                  <p>
+                
+ 
+LOT 396:</p>
+                    <p> figure made of glass, modeled on a hill-like base. Height כ-13 ס"מ, width 17 ס"מ.
+                      </p>
+                      <div class="modalprice">
+                        <h5 class="price">Price</h5>
+                     <h5>$10</h5>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" >BID</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col"  data-bs-toggle="modal" data-bs-target="#popup3">
+          <div class="card">
+              <div >
+                <img class="collectimg" class="image" src="images/collectibels/13.jpg">
+              </div>
+              <div class="text">
+              <h5 class="txt">
+           
+Jerusalem Numismatics's </h5>
+              </div>
+               <p> Pair of gold cufflinks (14 ct) with original "Widow's Mite" coins, 103-76 B.C.E. ...</p>
+               <h5 class="price">Price:</h5>
+               <div class="add d-flex">
+                <h5> $2400</h5>
+                <a href="#"  data-bs-toggle="modal" data-bs-target="#popup3">VIEW</a></div>
+              </div>
+            </div>
+            <!-- modal -->
+            <div class="modal  fade" tabindex="-1"  id="popup3"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+              <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">
+                      Jerusalem Numismatics's </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/collectibels/13.jpg" class="modalimage">
+                    <p>
+                  
+   
+  LOT 396:</p>
+                      <p> Pair of gold cufflinks (14 ct) with original "Widow's Mite" coins, 103-76 B.C.E.
+                        From archaeological excavations we know that the majority of coins circulating in Jerusalem in the time of Jesus were the lepta or prutot, loose change, struck by the Hasmonean and Herodian dynasties and the Roman governors of Judaea under the Emperors Augustus and Tiberius. In addition there were smaller number of Seleucid, Ptolemaic and Nabataean coins. We consider that any small bronze coin that circulated in Jerusalem in the time of Jesus can be considered a legitimate candidate for the coins mentioned in Mark 12 and Matthew.
+                        
+                        Size: 1.5 X 1.7 centimeter approximately per each.
+                        Total weight (of both cufflinks and coins): 12.7 grams approximately.
+                        
+Weight: 	12.7 gr
+Measurement: 	1.7 x 1.5 cm
+
+                        </p>
+                        <div class="modalprice">
+                          <h5 class="price">Price</h5>
+                       <h5> $2400</h5>
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" >BID</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="col"  data-bs-toggle="modal" data-bs-target="#popup4">
+            <div class="card">
+                <div >
+                  <img class="collectimgss" src="images/collectibels/10.jpg">
+                </div>
+                <div class="text">
+                <h5 class="txt"> 
+                  
+Historama's</h5>
+                </div>
+                 <p>
+                  Lot number: 6403-118794: Dutch Shlomo An-ski Judaica portrait medal of Jewish </p>
+                 <h5 class="price">Price:</h5>
+                 <div class="add d-flex">
+                  <h5>$150 </h5>
+                  <a href="#"  data-bs-toggle="modal" data-bs-target="#popup4">VIEW</a></div>
+                </div>
+              </div>
+              <!-- modal -->
+              <div class="modal  fade" tabindex="-1"  id="popup4"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">
+                        Jerusalem Numismatics's </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/collectibels/10.jpg" class="modalimage">
+                      <p>
+                    
+     
+    
+Lot number: 6403-118794</p>
+                        <p> Dutch Shlomo An-ski Judaica portrait medal of Jewish Historical Museum c.1979
+                          Netherlands: Shlomo Ansky ("An-ski") medal of the Dutch Jewish Historical Museum in Amsterdam, circa. 1979; cast bronze (no discernable maker mark); 76mm, 134.8g: features a portrait of An-ski in a tarboosh hat (see photo) adorned by the legend "Joods Historisch Museum" on obverse, and a Yiddish dedication to him in Hebrew letters on the reverse ("Yiddischer Kultur-Verein 'Sh. An-Ski'") and the dates 1921-1979 over an image of a Jewish "Menorah" (candelabra) with a small figure at the top-center of a religious Jew studying. Sh. An-ski (1863-1920) was the pen-name of the Russian Jew, Shlomo Zeilenvil (Zangwill) Rapaport (also "Shloyme Zanvl Rappoport"), an author, poet and stagewrite in Yiddish and Russian; composer of the play "The Dybbuk" and of the hymn, "Die Shvue" ("The Oath") for the Jewish-Socialist "Bund" movement. He was raised Hassidic religious though left the faith and joined the Socialist movement and became active there, only to return to his Jewish roots at the turn of the 20th Century and began writing in Yiddish, collecting Jewish folk tales. He was active in Jewish charity and salvation work during the First World War, fled Russia for Vilna and then Poland, during the Russian Revolution and died in Poland. A search reveals a sole connection to a " Jewish Cultural Society" spelled in Hebraicized Yiddish as on the medal existed in Vienna, at least in 1927, and the dates shown on the medal may be a reference to it. A lovely design, in AU-UNC.
+                          
+                          
+                          Product Tags: Dutch,Hollandish,Netherlandish, Russian Exonumia, Medals, Medallions & Tokens, Jewish Personalities and Judaic Tokens & Medals from Netherlands, Russia and from 20th Century, 1970s which are Objects with Biblical or Jewish Religious references or Hebrew Dates, Hebrew on/in non-Israeli object, Object Related Specifically to a Personality or Key Event,
+                          </p>
+                          <div class="modalprice">
+                            <h5 class="price">Price</h5>
+                         <h5> $150 </h5>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" >BID</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col"  data-bs-toggle="modal" data-bs-target="#popup5">
+              <div class="card">
+                  <div >
+                    <img class="collectimgs" src="images/collectibels/9.jpg">
+                  </div>
+                  <div class="text">
+                  <h5 class="txt">
+                    By Watch collect</h5>
+                  </div>
+                   <p>
+                   
+LOT 263: Edox Les Bemonts
+Production year: 2000...</p>
+                   <h5 class="price">Price:</h5>
+                   <div class="add d-flex">
+                    <h5>$200</h5>
+                    <a href="#"  data-bs-toggle="modal" data-bs-target="#popup5">VIEW</a></div>
+                  </div>
+                </div>
+                <!-- modal -->
+                <div class="modal  fade" tabindex="-1"  id="popup5"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">
+                          By Watch collect </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/collectibels/9.jpg" class="modalimage">
+                        <p>
+                      
+       
+      
+
+                          LOT 263:</p>
+                          <p> Edox Les Bemonts
+                            Production year: 2000
+                            Material: Steel
+                            Mechanism: Quartz
+                            Dimensions: 35 mm
+                            Gender: גבר/אשה
+                            Box: No
+                            Papers: No
+                            Condition: Very good
+                            Description: Swiss classic thin watch with integrated bracelet
+                            Notes: Bracelet integrated original
+                            </p>
+                            <div class="modalprice">
+                              <h5 class="price">Price</h5>
+                           <h5> $200 </h5>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" >BID</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col"  data-bs-toggle="modal" data-bs-target="#popup6">
+                <div class="card">
+                    <div >
+                      <img class="collectimg" src="images/collectibels/10.png">
+                    </div>
+                    <div class="text">
+                    <h6 class="txt">
+                      By The Jewish Shtetl</h6>
+                    </div>
+                     <p>
+                        <br>
+                     
+LOT 291: Shroulik brass menorah,.</p>
+                     <h5 class="price">Price:</h5>
+                     <div class="add d-flex">
+                      <h5> $400</h5>
+                      <a href="#"  data-bs-toggle="modal" data-bs-target="#popup6">VIEW</a></div>
+                    </div>
+                  </div>
+                  <!-- modal -->
+                  <div class="modal  fade" tabindex="-1"  id="popup6"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">
+                            By The Jewish Shtetl</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="images/collectibels/10.png" class="modalimage">
+                          <p>
+                        
+         
+        
+  
+                          
+LOT 291::</p>
+                            <p> Shroulik brass menorah, a decade of the State of Israel. A fancy menorah, made in Israel. The menorah was issued in honor of the 10th anniversary of the State of Israel and has Israeli motifs (the number "10" is shown on Shroulik's shirt). The menorah is decorated with a Star of David and the inscription "Israel" on its base. Height - 17.5 cm, base dimensions - 8.5X5.5 cm.
+                              We have already sold one menorah,
+                             
+                             This menorah is the Second one we have and the last one!
+                             
+                             
+                              </p>
+                              <div class="modalprice">
+                                <h5 class="price">Price</h5>
+                             <h5> $400</h5>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" >BID</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col"  data-bs-toggle="modal" data-bs-target="#popup7">
+                  <div class="card">
+                      <div >
+                        <img class="collectimgs" src="images/collectibels/watch.jpg">
+                      </div>
+                      <div class="text">
+                      <h5 class="txt">By Watch collect</h5>
+                      </div>
+                       <p>
+                        LOT 206:  Edox Geoscope GMT World Time
+                        Production Year:</p>
+                       <h5 class="price">Price:</h5>
+                       <div class="add d-flex">
+                        <h5>$2000</h5>
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#popup7">VIEW</a></div>
+                      </div>
+                    </div>
+                    <!-- modal -->
+                    <div class="modal  fade" tabindex="-1"  id="popup7"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">
+                              By Watch collect</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/collectibels/watch.jpg" class="modalimage">
+                            <p>
+                          
+           
+          
+    
+                            
+
+                              LOT 206:</p>
+                              <p> Edox Geoscope GMT World Time
+                                Production Year: שנאת ה - 70
+                                Material: Steel
+                                Mechanism: Automatic
+                                Dimensions: 42 mm
+                                Gender: Male
+                                Box: No
+                                Papers: No
+                                Condition: Very good
+                                Description: A very rare and rare watch, double worldly time, with a table on the side of the atlas and the moon rotating internally. Amazing clock.
+                                Notes: The bracelet is original
+                               
+                               
+                                </p>
+                                <div class="modalprice">
+                                  <h5 class="price">Price</h5>
+                               <h5> $2000</h5>
+                                </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" >BID</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+     
+            <div class="col"   data-bs-toggle="modal" data-bs-target="#popup8">
+              <div class="card">
+                  <div >
+                    <img class="collectimgss" src="images/collectibels/colllect.png">
+                  </div>
+                  <div class="text">
+                  <h5 class="txt">
+                    By The Jewish Shtetl</h5>
+                  </div>
+                   <p>
+            
+LOT 290: Menorah decorated with a Hebrew soldier carrying a rifle made of brass,...</p>
+                   <h5 class="price">Price:</h5>
+                   <div class="add d-flex">
+                    <h5>$300</h5>
+                    <a href="#"  data-bs-toggle="modal" data-bs-target="#popup8">VIEW</a></div>
+                  </div>
+                </div>
+                <!-- modal -->
+                <div class="modal  fade" tabindex="-1"  id="popup8"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">
+                          By The Jewish Shtetl</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/collectibels/colllect.png" class="modalimage">
+                        <p>
+                      
+       
+      
+
+                        
+
+                         
+
+                          LOT 290:</p>
+                          <p> Menorah decorated with a Hebrew soldier carrying a rifle made of brass, patina Israel 1950s - good condition. Signed: Patent 1064 - MADE IN ISRAEL. Height: 17 cm, width: 11 cm.
+                           
+                            </p>
+                            <div class="modalprice">
+                              <h5 class="price">Price</h5>
+                           <h5> $300</h5>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" >BID</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col" data-bs-toggle="modal" data-bs-target="#popup9">
+                <div class="card">
+                    <div >
+                      <img class="collectimgss"src="images/collectibels/7.jpg">
+                    </div>
+                    <div class="text">
+                    <h5 class="txt">Watch collect </h5>
+                    </div>
+                     <p>רLOT 21: Omega Constellations pie Pan. שנת ייצור: שנות ה - 70 חומר: פלדה ...</p>
+                     <h5 class="price">Price:</h5>
+                     <div class="add d-flex">
+                      <h5>$1,400</h5>
+                      <a href="#"  data-bs-toggle="modal" data-bs-target="#popup9">VIEW</a></div>
+                    </div>
+                  </div>
+                  <!-- modal -->
+                  <div class="modal  fade" tabindex="-1"  id="popup9"  aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">
+                            Watch collect</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="images/collectibels/7.jpg" class="modalimage">
+                          <p>
+                        
+         
+        
+  
+                          
+  
+                           
+  
+                            LOT 21:</p>
+                            <p>
+                              Omega Constellations Pie Pan
+                              Production Year: שנאת ה - 70
+                              Material: Steel
+                              Mechanism: Automatic
+                              Dimensions: 34 mm
+                              Gender: Male
+                              Box: No
+                              Papers: No
+                              Condition: Very good
+                              Description: Constellation Automatic מרשים אם לוח פאי פאן כסופ נדיר ותאריכון
+                              Notes: The bracelet is not original
+                             
+                              </p>
+                              <div class="modalprice">
+                                <h5 class="price">Price</h5>
+                             <h5> $1,400</h5>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary" >BID</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
+                              
+      </div>
+  </section>
+    <!-- footer -->
+    <footer>
+
+      <div class="content footer">
+        <div class="left box footer">
+          <div class="upper">
+            
+            <div class="topic"><img src="images/logo4.png" class="logo"></div>
+            <p>An auction is usually a process of buying and selling goods or services by offering them up for bids, taking bids, and then selling the item to the highest bidder or buying the item from the lowest bidder. Some exceptions to this definition exist and are described in the section about different types.</p>
+          </div>
+          <div class="lower">
+            <div class="topic"><a href="#">Contact Us</a></div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+9344 555 6666</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>BidSpirit@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div><h3 class="topic">SiteMap</h3></div>
+          <hr>
+          <div><a href="#">Home</a></div>
+          <div><a href="feedback.html">Feedback</a></div>
+          <div><a href="#">About Us</a></div>
+          <div><a href="#">Gallery</a></div>
+          <div><a href="faqs.html">FAQS</a></div>
+          <div class="topic">Auctions</div>
+          <hr/>
+          <div><a href="art.html">Arts</a></div>
+          <div><a href="furniture.html">Furniture</a></div>
+          <div><a href="antiques.html">Antiques</a></div>
+          <div><a href="jewerlly.html">Jewellery</a></div>
+          <div><a href="collectibles.html">Collectibles</a></div>
+        
+        </div>
+      
+        <div class="right box">
+      
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col install">
+              <div class="row">
+                <img src="images/visa-removebg-preview.png" alt="">
+                 
+                 
+                  <img src="images/footer1-removebg-preview.png" alt="">
+                  <img src="images/footer2.webp" alt="">
+              </div>
+              <p>Secured Payment Gateways</p>
+            
+          </div>
+          <div class="copyright">
+            <p>Copyright © 2024, BIDSPIRIT</p>
+        </div>
+        </div>
+      </div>
+     
+     </footer>
+ 
+
+<script src="app.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script>
+setInterval(()=>{
+const time = document.querySelector(".display #time");
+let date = new Date();
+let hours = date.getHours();
+let minutes = date.getMinutes();
+let seconds = date.getSeconds();
+let day_night = "AM";
+if(hours > 12){
+day_night = "PM";
+hours = hours - 12;
+}
+if(seconds < 10){
+seconds = "0" + seconds;
+}
+if(minutes < 10){
+minutes = "0" + minutes;
+}
+if(hours < 10){
+hours = "0" + hours;
+}
+time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+});
+
+
+
+
+
+</script>
+<script src="jquery-3.7.1.min.js"></script>
+<!-- // filter -->
+<script>
+$(document).ready(function(){
+$("#myinput").on("keyup",function(){
+var value = $(this).val().toLowerCase();
+$("#mydiv .card").filter(function(){
+$(this).toggle($(this).text().toLowerCase().indexOf(value)>-1);
+});
+});
+});
+</script>
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  /* text-align: center; */
+background: black;
+}
+/* NavigationBar */
+        
+.navtop{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  font-family: 'Work Sans', sans-serif;
+height: 65px;
+  background-color: black;
+
+}
+/* Navigation */
+
+#navbarSupportedContent{
+  transition: all 5s ease-in-out;
+  text-align: center;
+
+}
+
+.navbar{
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+font-family: 'Work Sans', sans-serif;
+margin-top: 65px;
+background-color:  rgb(122, 66, 25);
+}
+
+.navbar-nav .nav-item {
+display: inline-block;
+
+
+}
+
+.navbar .navbar-nav .nav-item a {
+text-decoration: none;
+color: white;
+display: block;
+padding: 15px;
+background-color:  rgb(122, 66, 25);
+
+
+}
+
+.navbar .navbar-nav .nav-but a {
+margin: 10px;
+color: white;
+}
+
+.navbar .navbar-nav .nav-but a:hover{
+  background-color:  rgb(160, 93, 44);
+  color:white;
+}
+.bg-drop {
+background-color: rgb(122, 66, 25);
+
+border: none;
+
+}
+
+.bg-drop li {
+display: block;
+
+}
+
+.bg-drop li a:hover {
+color: white;
+background-color: #b95717;
+}
+
+.navbar-toggler{
+text-align: center;
+transition: 3s ease-in-out;
+}
+
+.nav-but{
+margin-left: 350px;
+}
+
+.wrapper{
+  height: 100px;
+  width: 360px;
+  position: relative;
+  /* background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0); */
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 1.5s linear infinite;
+
+}
+.wrapper .display,
+.wrapper span{
+  position: absolute;
+
+  left: 200%;
+  transform: translate(-50%, -50%);
+
+}
+.wrapper .display{
+  z-index: 999;
+  height: 85px;
+  width: 345px;
+ top: 45px;
+
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  line-height: 85px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+
+}
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.wrapper span{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: inherit;
+}
+.wrapper span:first-child{
+  filter: blur(7px);
+}
+.wrapper span:last-child{
+  filter: blur(20px);
+}
+.containerz{
+    position: absolute;
+    width: 400px;
+    background: #111;
+    padding: 20px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 300px;
+  
+
+
+}
+
+.containerz .post{
+    display: none;
+    color: chocolate;
+}
+.containerz .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: chocolate;
+    font-weight: 500;
+    cursor: pointer;
+}
+.containerz .edit:hover{
+    text-decoration: underline;
+}
+.containerz .star-widget input{
+    display: none;
+  }
+  .star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+  }
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+   }
+  input:checked ~ label{
+    color: #fd4;
+  }
+  input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+ }
+  #rate-1:checked ~ form header:before{
+    content: "I just hate it";
+  }
+  #rate-2:checked ~ form header:before{
+    content: "I don't like it ";
+  }
+  #rate-3:checked ~ form header:before{
+    content: "It is awesome ";
+  }
+  #rate-4:checked ~ form header:before{
+    content: "I just like it ";
+  }
+  #rate-5:checked ~ form header:before{
+    content: "I just love it ";
+  }
+  .containerz form{
+    display: none;
+  }
+  input:checked ~ form{
+    display: block;
+  }
+  form header{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  form .button{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+  }
+ 
+  form .button button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #222;
+    color: yellow;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form .button button:hover{
+    background: #1b1b1b;
+    color: chocolate;
+  }
+  .visitor{
+   
+    margin-top: 10px;
+  }
+
+ 
+  .clock{
+    
+    color: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  color: #f2f2f2;
+    border-radius: 10px;
+    margin-left: 250px;
+  }
+  #Date{
+    font-size: 18px !important;
+    text-align: center;
+   
+  }
+
+  /* footer */
+  footer .content{
+    max-width: 100%;
+   position: absolute; 
+   left: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  rgb(122, 66, 25);
+    margin-top: 200px;
+    height: auto;
+    box-shadow: 25px 25px 25px 25px rgba(0,0,0,0.15), 10px 10px 10px 10px rgba(0,0,0,0.22); 
+  }
+  footer .content p,a{
+    color: white;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 16px;
+  }
+  footer .content p{
+    text-align: justify;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+    margin-top: 30px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  .media-icons{
+    margin-top: 20px;
+  }
+  
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid chocolate;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+    color: white;
+  
+  }
+  .content .media-icons a:hover{
+    border-color: black;
+    color: chocolate;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: white;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color:chocolate;
+    text-decoration: underline;
+  }
+  .topic{
+    margin-top: 10px;
+  }
+  .middle a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .topic a{
+    color: white;
+    text-decoration: none;
+  
+  
+  }
+  .phone a{
+  color: white;
+  text-decoration: none;
+  
+  }
+  .phone a:hover{
+    color: chocolate;
+    text-decoration: underline;
+    }
+    .email a{
+      color: white;
+      text-decoration: none;
+      }
+      .email a:hover{
+        color: chocolate;
+        text-decoration: underline;
+        }
+        .visitor{
+        margin-top: 10px;
+        }
+        .footer hr{
+          color: rgb(255, 239, 239);
+          width: 80px;
+        }
+        footer .install .row img{
+      
+          border-radius: 6px;
+          
+      }
+      footer .install  img{
+          /* margin: 10px 0 15px 0; */
+          width: 100px;
+          height: 80px;
+          margin-top: 30px;
+          padding: 0;
+      }
+      footer.follow i:hover,
+      footer a:hover{
+          color: #021615;
+      }
+      footer .copyright{
+          width: 100%;
+          text-align: center;
+          margin-top: 250px;
+     margin-left: 20px;
+      
+      
+      }
+      .footer  a:hover{
+        color: chocolate;
+        padding-left: 8px;
+      }
+  
+      /*responsive*/
+      @media (max-width:1100px) {
+        footer .content .middle{
+          padding-left: 50px;
+        }
+      }
+      @media (max-width:950px){
+        footer .content .box{
+          width: 50%;
+        }
+        .content .right{
+          margin-top: 40px;
+        }
+      }
+      @media (max-width:560px){
+        footer{
+          position: relative;
+        }
+        footer .content .box{
+          width: 100%;
+          margin-top: 30px;
+        }
+        footer .content .middle{
+          padding-left: 0;
+        }
+      }
+  
+      .logo{
+        width: 60%;
+        height: 255px;
+            }

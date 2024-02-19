@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+}
+body{
+    background:  rgb(109, 66, 36);
+}
+.box h4{
+    color: chocolate;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    color: aliceblue;
+}
+.box input[type = "email"],.box input[type = "password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(122, 66, 25);
+    padding: 12px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px ;
+    transition: 0.25s;
+}
+.box input[type = "email"]:focus,.box input[type = "password"]:focus
+{
+    width: 280px;
+    border-color:chocolate;
+   
+}
+.boxxx{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+ background-color: black;
+    text-align: center;
+    border: 2px solid chocolate;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 24px ;
+    transition: 0.25s;
+}
+.boxxx input[type = "submit"]{
+    color: white;
+    border: none;
+    background-color: black;
+}
+.boxxx input[type = "submit"]:hover{
+    color: white;
+    border: none;
+    background-color: chocolate;
+}
+.boxxx input:hover{
+  background-color: chocolate;
+}
+.boxxx:hover{
+  background-color:chocolate;}
